@@ -22,13 +22,13 @@ function outer() {
   Invoke outer saving the return value into another variable called 'inner'.
 */
   
-// Code Here
+inner = outer(name)
 
 
 
 //Once you do that, invoke inner.
 
-//Code Here
+inner(`jake`)
 
 
 
